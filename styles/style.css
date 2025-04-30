@@ -73,3 +73,62 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* ! Start */
+
+body {
+  background-color: #c99f9f;
+  position: relative;
+  min-height: 100vh;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.verticalLine {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #888888;
+}
+
+.centerLine {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #888888;
+}
+
+.inputContainer {
+  position: relative;
+  width: 268px;
+}
+
+.inputContainer input {
+  background-color: lightgreen;
+  border-radius: 8px;
+  width: 100%;
+  padding: 11px 40px 11px 16px;
+  border: none;
+}
+
+.inputContainer .inputIcon {
+  display: flex;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
